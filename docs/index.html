@@ -34,6 +34,22 @@
 </div>
 <p><strong>2Ｄ作品</strong></p>
 <div id="Accordion1">
+  <div id="Tabs2">
+    <ul>
+      <li><a href="#tabs-4">Tab 1</a></li>
+      <li><a href="#tabs-5">Tab 2</a></li>
+      <li><a href="#tabs-6">Tab 3</a></li>
+    </ul>
+    <div id="tabs-4">
+      <p>コンテンツ 1</p>
+    </div>
+    <div id="tabs-5">
+      <p>コンテンツ 2</p>
+    </div>
+    <div id="tabs-6">
+      <p>コンテンツ 3</p>
+    </div>
+  </div>
   <h3><a href="#">作品 4</a></h3>
 	  <div>
 	    <p><img src="images/gracia.nomal2.jpg" width="300"></p>
@@ -53,6 +69,9 @@ $(function() {
 });
 $(function() {
 	$( "#Accordion1" ).accordion(); 
+});
+$(function() {
+	$( "#Tabs2" ).tabs(); 
 });
 </script>
 </body>
