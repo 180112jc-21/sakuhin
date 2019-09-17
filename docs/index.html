@@ -7,10 +7,8 @@
 <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
-<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
 <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
 <script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
-<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
 </head>
 
 <body>
@@ -33,42 +31,25 @@
   </div>
 </div>
 <p><strong>2Ｄ作品</strong></p>
-<div id="Accordion1">
-  <div id="Tabs2">
-    <ul>
-      <li><a href="#tabs-4">Tab 1</a></li>
-      <li><a href="#tabs-5">Tab 2</a></li>
-      <li><a href="#tabs-6">Tab 3</a></li>
-    </ul>
-    <div id="tabs-4">
-      <p>コンテンツ 1</p>
-    </div>
-    <div id="tabs-5">
-      <p>コンテンツ 2</p>
-    </div>
-    <div id="tabs-6">
-      <p>コンテンツ 3</p>
-    </div>
+<div id="Tabs2">
+  <ul>
+    <li><a href="#tabs-4">Tab 1</a></li>
+    <li><a href="#tabs-5">Tab 2</a></li>
+    <li><a href="#tabs-6">Tab 3</a></li>
+  </ul>
+  <div id="tabs-4">
+    <p><img src="images/gracia.nomal2.jpg" width="300"></p>
   </div>
-  <h3><a href="#">作品 4</a></h3>
-	  <div>
-	    <p><img src="images/gracia.nomal2.jpg" width="300"></p>
-	  </div>
-	  <h3><a href="#">作品 5</a></h3>
-	  <div>
-	    <p><img src="images/ユノ.jpg" width="300"></p>
-	  </div>
-	  <h3><a href="#">作品 6</a></h3>
-	  <div>
-	    <p><img src="images/20190602_111701150_iOS.jpg" width="300"></p>
-	  </div>
+  <div id="tabs-5">
+    <p><img src="images/ユノ.jpg" width="300"></p>
+  </div>
+  <div id="tabs-6">
+    <p><img src="images/20190602_111701150_iOS.jpg" width="300"></p>
+  </div>
 </div>
 <script type="text/javascript">
 $(function() {
 	$( "#Tabs1" ).tabs(); 
-});
-$(function() {
-	$( "#Accordion1" ).accordion(); 
 });
 $(function() {
 	$( "#Tabs2" ).tabs(); 
